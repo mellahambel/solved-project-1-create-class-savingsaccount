@@ -1,0 +1,7 @@
+Download Link: https://assignmentchef.com/product/solved-project-1-create-class-savingsaccount
+<br>
+Create class SavingsAccount. Use a static variable annualInterestRate to store the annual interest rate for all account holders. Each object of the class contains a private instance variable savingsBalance indicating the amount the saver currently has on deposit. Provide method calculateMonthlyInterest to calculate the monthly interest by multiplying the savingsBalance by annualInterestRate divided by 12- this interest should be added to savingsBalance. Provide a static method setInterestRate that sets the annualInterestRate to a new value. There should also be a method setSavingsBalance to set the initial savings balance for a new saver or you can do it through a constructor.
+
+Write a program to test class SavingsAccount. Instantiate two SavingsAccount objects, saver1 and saver2, with balances of $2000.00 and $3000.00, respectively. Set annualInterestRate to 4%, then calculate the monthly interest for each 12 months and print the new balances for both savers. Next, set the annualInterestRate to 5%, calculate the next month’s interest and print the new balances for both savers.
+
+Put the code to test the class in the main method of the Savings Account Class. The output of your program should look like the output as in expectedoutput.png
